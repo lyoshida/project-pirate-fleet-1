@@ -64,7 +64,7 @@ class ControlCenter {
         let humanShipsRemaining = 5 - gameStats.humanShipsSunk
         let shipBonus = gameStats.shipBonus
         
-        let numberOfGuesses = gameStats.numberOfHitsOnEnemy + gameStats.numberOfHitsOnEnemy
+        let numberOfGuesses = gameStats.numberOfHitsOnEnemy + gameStats.numberOfMissesByHuman
         let guessPenalty = gameStats.guessPenalty
         
         // Calculates the final score
